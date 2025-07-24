@@ -62,6 +62,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Product wherePrice($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Product whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \App\Models\Category $category
  */
 	class Product extends \Eloquent {}
 }
