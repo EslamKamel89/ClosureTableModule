@@ -25,6 +25,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Product whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Product wherePrice($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Product whereUpdatedAt($value)
+ * @property-read \App\Models\Category $category
  * @mixin \Eloquent
  */
 class Product extends Model {
