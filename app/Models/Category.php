@@ -86,6 +86,10 @@ class Category extends Model {
         return $this->ancestors()->orderBy('category_hierarchy.depth', 'desc')->get();
     }
     public function breadcrumbs() {
-        return $this->path()->concat(collect([$this]));
+        // $breadcrumbs = $this->path()->toArray();
+        // array_unshift($breadcrumbs, $this);
+        // return collect($breadcrumbs);
+        return $this->path()
+            ->concat(collect([$this]))->unique('id');
     }
 }

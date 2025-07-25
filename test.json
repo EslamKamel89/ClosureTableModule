@@ -1,0 +1,228 @@
+[
+    {
+        "id": 1,
+        "name": "Electronics",
+        "slug": "electronics",
+        "is_leaf": false,
+        "product_count": 0,
+        "children": [
+            {
+                "id": 2,
+                "name": "Phones",
+                "slug": "phones",
+                "is_leaf": false,
+                "product_count": 0,
+                "children": [
+                    {
+                        "id": 3,
+                        "name": "Smartphones",
+                        "slug": "smartphones",
+                        "is_leaf": false,
+                        "product_count": 0,
+                        "children": [
+                            {
+                                "id": 4,
+                                "name": "Android Phones",
+                                "slug": "android-phones",
+                                "is_leaf": true,
+                                "product_count": 1,
+                                "children": []
+                            },
+                            {
+                                "id": 5,
+                                "name": "iOS Phones",
+                                "slug": "ios-phones",
+                                "is_leaf": true,
+                                "product_count": 1,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Laptops",
+                "slug": "laptops",
+                "is_leaf": false,
+                "product_count": 0,
+                "children": [
+                    {
+                        "id": 7,
+                        "name": "Gaming Laptops",
+                        "slug": "gaming-laptops",
+                        "is_leaf": true,
+                        "product_count": 1,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Accessories",
+                "slug": "accessories",
+                "is_leaf": false,
+                "product_count": 0,
+                "children": [
+                    {
+                        "id": 9,
+                        "name": "Phone Cases",
+                        "slug": "phone-cases",
+                        "is_leaf": true,
+                        "product_count": 1,
+                        "children": []
+                    },
+                    {
+                        "id": 10,
+                        "name": "Chargers",
+                        "slug": "chargers",
+                        "is_leaf": true,
+                        "product_count": 1,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Phones",
+        "slug": "phones",
+        "is_leaf": false,
+        "product_count": 0,
+        "children": [
+            {
+                "id": 3,
+                "name": "Smartphones",
+                "slug": "smartphones",
+                "is_leaf": false,
+                "product_count": 0,
+                "children": [
+                    {
+                        "id": 4,
+                        "name": "Android Phones",
+                        "slug": "android-phones",
+                        "is_leaf": true,
+                        "product_count": 1,
+                        "children": []
+                    },
+                    {
+                        "id": 5,
+                        "name": "iOS Phones",
+                        "slug": "ios-phones",
+                        "is_leaf": true,
+                        "product_count": 1,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Smartphones",
+        "slug": "smartphones",
+        "is_leaf": false,
+        "product_count": 0,
+        "children": [
+            {
+                "id": 4,
+                "name": "Android Phones",
+                "slug": "android-phones",
+                "is_leaf": true,
+                "product_count": 1,
+                "children": []
+            },
+            {
+                "id": 5,
+                "name": "iOS Phones",
+                "slug": "ios-phones",
+                "is_leaf": true,
+                "product_count": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Android Phones",
+        "slug": "android-phones",
+        "is_leaf": true,
+        "product_count": 1,
+        "children": []
+    },
+    {
+        "id": 5,
+        "name": "iOS Phones",
+        "slug": "ios-phones",
+        "is_leaf": true,
+        "product_count": 1,
+        "children": []
+    },
+    {
+        "id": 6,
+        "name": "Laptops",
+        "slug": "laptops",
+        "is_leaf": false,
+        "product_count": 0,
+        "children": [
+            {
+                "id": 7,
+                "name": "Gaming Laptops",
+                "slug": "gaming-laptops",
+                "is_leaf": true,
+                "product_count": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Gaming Laptops",
+        "slug": "gaming-laptops",
+        "is_leaf": true,
+        "product_count": 1,
+        "children": []
+    },
+    {
+        "id": 8,
+        "name": "Accessories",
+        "slug": "accessories",
+        "is_leaf": false,
+        "product_count": 0,
+        "children": [
+            {
+                "id": 9,
+                "name": "Phone Cases",
+                "slug": "phone-cases",
+                "is_leaf": true,
+                "product_count": 1,
+                "children": []
+            },
+            {
+                "id": 10,
+                "name": "Chargers",
+                "slug": "chargers",
+                "is_leaf": true,
+                "product_count": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Phone Cases",
+        "slug": "phone-cases",
+        "is_leaf": true,
+        "product_count": 1,
+        "children": []
+    },
+    {
+        "id": 10,
+        "name": "Chargers",
+        "slug": "chargers",
+        "is_leaf": true,
+        "product_count": 1,
+        "children": []
+    }
+]
